@@ -20,10 +20,11 @@ class MainActivity : ComponentActivity() {
         setContent {
             ConnectionsAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    //Greeting(
+                        //name = "Android",
+                        //modifier = Modifier.padding(innerPadding)
+                    //)
+                    connectionsScreen(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
